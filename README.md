@@ -13,6 +13,6 @@
 
 ## Live Demo
 
-You can view the live version of the website at (https://shughashbhaskar.github.io/Greenden-Tailwind/)
+You can view the live version of the website at [Greenden Live Demo](https://shughashbhaskar.github.io/Greenden-Tailwind/)
 
 ---
