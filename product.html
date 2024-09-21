@@ -13,7 +13,7 @@
     <div class="bg-green-100 flex p-3 items-center justify-between shadow-lg sticky top-0 z-10">
         <h1 class="text-2xl">GREENDEN</h1>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-            class="size- h-6 w-6 md:hidden">
+            class="size- h-6 w-6 md:hidden" id="menu">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
 
@@ -32,13 +32,32 @@
         </ul>
 
     </div>
+      <!-- side-navbar -->
+   <div id="sidenav" class="bg-green-100 fixed top-0 z-20 transform duration-1000" style="width: 50%; height: 100vh; right: -50%;">
+    <div class="text-right p-5">
+      <p class="inline cursor-pointer" id="x">X</p>
+    </div>
+    <ul class="text-gray-600 flex flex-col gap-10 items-center ">
+      <li class="hover:underline hover:text-black">
+        <a href="index.html">Home</a>
+      </li>
+
+      <li class="hover:underline hover:text-black">
+        <a href="product.html">Products</a>
+      </li>
+
+      <li class="hover:underline hover:text-black">
+        <a href="contact.html">Contact</a>
+      </li>
+    </ul>
+   </div>
 
     <section>
         <div class="text-center mt-4">
             <h1 class="text-3xl font-bold">Our Products</h1>
             <input type="text" class="border border-black mt-3 p-1" style="width: 80%;"
-                placeholder="Search for a product">
-            <div class="mt-5 grid grid-cols-2 gap-5 md:grid-cols-4 ">
+                placeholder="Search for a product" id="search">
+            <div class="mt-5 grid grid-cols-2 gap-5 md:grid-cols-4 " id="container">
                 <div>
                     <img src="./images/Best-1.png" alt="" class="inline hover:shadow-xl transform hover:-translate-y-2">
                     <h2 class="font-bold">Rose Plant</h2>
@@ -95,6 +114,8 @@
 
 </section>
 
+<script src="product.js">
 
+</script>
 </body>
 </html>
